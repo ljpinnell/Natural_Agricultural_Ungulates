@@ -1,6 +1,6 @@
 # Manuscript code
 
-### This repository contains all of the code and input files required to replicate the analysis in the manuscript "More than an anthropogenic phenomenon: antimicrobial resistance in natural and agricultural ungulates"
+### This repository contains all of the code and input files required to replicate the analysis in the manuscript "MORE THAN AN ANTHROPOGENIC PHENOMENON: ANTIMICROBIAL RESISTANCE IN NATURAL AND AGRICULTURAL UNGULATES"
 
 
 

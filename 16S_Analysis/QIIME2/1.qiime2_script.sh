@@ -11,8 +11,8 @@ qiime demux summarize --i-data demux-paired-end.qza --o-visualization demux-pair
 ## DADA2
 qiime dada2 denoise-paired --i-demultiplexed-seqs demux-paired-end.qza \
 --p-n-threads 12 --o-table table.qza \
---p-trim-left-f 6 --p-trunc-len-f 247 \
---p-trim-left-r 6 --p-trunc-len-r 247 \
+--p-trim-left-f 19 --p-trunc-len-f 247 \
+--p-trim-left-r 20 --p-trunc-len-r 247 \
 --o-representative-sequences rep-seqs.qza --output-dir DADA2
 
 ## classifying

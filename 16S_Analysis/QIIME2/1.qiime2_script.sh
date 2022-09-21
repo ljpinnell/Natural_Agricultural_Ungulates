@@ -6,6 +6,8 @@ qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' \
 ## visualize demuxed reads
 qiime demux summarize --i-data demux-paired-end.qza --o-visualization demux-paired-end.qzv
 
+### at this point use view.qiime2.org to pick your trim and trunc lengths
+
 ## DADA2
 qiime dada2 denoise-paired --i-demultiplexed-seqs demux-paired-end.qza \
 --p-n-threads 12 --o-table table.qza \

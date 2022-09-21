@@ -9,9 +9,9 @@
 
 # Table of Contents
 ## 16S Analysis
-#### QIIME2 was used to create ASV table, representative sequenes, mid-point rooted tree
-#### R was used to normalize counts, generate figures, and make statistical comparisons
+#### * QIIME2 was used to create ASV table, representative sequenes, mid-point rooted tree
+#### * R was used to normalize counts, generate figures, and make statistical comparisons
 
 ## AMR-TE Analysis
-#### AMR++ version 2 with the MEGARes DB was used to process target-enriched metagenomic sequence data
-#### R was used to normalize counts, generate figures, and make statistical comparisons
+#### * AMR++ version 2 with the MEGARes DB was used to process target-enriched metagenomic sequence data
+#### * R was used to normalize counts, generate figures, and make statistical comparisons

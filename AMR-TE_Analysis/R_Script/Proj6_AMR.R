@@ -12,24 +12,17 @@ setwd("/Users/ljpinnell/Documents/VERO/Project6/TE/phyloseq/")
 # import data
 # elk
 elk <- import_biom("elk_AMR_counts.biom")
+#bison
 bison_other <- import_biom("Bison_AMR_counts.biom")
+# YBF2 re-prep
 ybf2 <- import_biom("YBF2_AMR_counts.biom")
 sample_names(ybf2) <- "YBF2"
+# cattle
 cow <- import_biom("cow_AMR_counts.biom")
 sample_names(cow) <- c("BFe10","BFe3","BFe33","BFe17","BFe28","BFe16","BFe23","BFe8")
-map_file <- import_qiime_sample_data("../../metadata/Project6_metadata.txt")
 
-### want the number of classes etc. for just bison for an unassocaited comparison
-colnames(tax_table(bison_other)) <- c("Type","Class","Mechanism","Group","Gene","SNP")
-bison_other_class <- tax_glom(bison_other, taxrank = "Class")
-bison_other_class
-bison_other_group <- tax_glom(bison_other, taxrank = "Group")
-bison_other_group
-colnames(tax_table(ybf2)) <- c("Type","Class","Mechanism","Group","Gene","SNP")
-ybf2_class <- tax_glom(ybf2, taxrank = "Class")
-ybf2_class
-ybf2_group <- tax_glom(ybf2, taxrank = "Group")
-ybf2_group
+#import metadata
+map_file <- import_qiime_sample_data("../../metadata/Project6_metadata.txt")
 
 data <- merge_phyloseq(elk, bison_other, ybf2, cow)
 data # 1775 AMR genes, 56 samples
@@ -65,17 +58,7 @@ write.csv(sample_sums(feces_SNPs),"feces_SNPs_counts.csv")
 any(taxa_sums(data_noSNP)==0) # nope
 any(taxa_sums(data_SNPconfirm)==0) # nope
 
-##### Sequencing depth (based on reads passing QC that were put into ARM++)
-data.df <- as(sample_data(data), "data.frame")
-
-# just compare the "groups"
-ggplot(data.df, aes(x= group, y= NumberOfInputReads, fill = group)) + theme_bw() +
-  geom_bar(stat="summary") +
-  geom_errorbar(stat = "summary")
-
-pairwise.wilcox.test(data.df$NumberOfInputReads, data.df$group)
-# one difference: YNP Bison soil vs. YNP elk feces
-
+## palette and labels with all caps
 four_colour_palette <- c("#638652","#4d5660","#8d391e","#ab6116")
 matrix.labs <- c(Feces = "FECES", Soil = "SOIL")
 
@@ -178,10 +161,8 @@ data.df <- as(sample_data(data.css), "data.frame")
 # distance
 noSNP.dist <- vegdist(t(otu_table(data_noSNP.css)), method = "bray")
 
-# ORDINATE
+# ORDINATE & PLOT
 noSNP.ord <- vegan::metaMDS(comm = t(otu_table(data_noSNP.css)), distance = "bray", try = 20, trymax = 50, autotransform = F)
-SNPconfirm.ord <- ordinate(data_SNPconfirm.css, method = "NMDS", distance = "bray")
-data.ord <- ordinate(data.css, method = "NMDS", distance = "bray")
 
 plot_ordination(data_noSNP.css, noSNP.ord, type = "samples", 
                 color = "location_species") +
@@ -201,7 +182,6 @@ plot_ordination(data_noSNP.css, noSNP.ord, type = "samples",
         axis.title.x = element_text(size = 42, vjust = -1.5))
 
 # stats
-# no SNPs
 noSNP.adonis <- pairwise.adonis(noSNP.dist, data_noSNP.df$group, perm = 9999, p.adjust.m = "BH")
 noSNP.adonis
 write.csv(noSNP.adonis, "TE_noSNP_adonis.csv")
@@ -604,10 +584,6 @@ importantAMR.css <- subset_taxa(data_noSNP.css, Group=="CTX" |
                                     Group=="CFR" |
                                     Group=="VGA" |
                                     Group=="SME")
-
-CPH <- subset_ta
-
-important_ARGs_group <- tax_glom(important)
 
 write.csv(otu_table(importantAMR.css),"importantAMR_otus.csv")
 write.csv(tax_table(importantAMR.css),"importantAMR_taxa.csv")

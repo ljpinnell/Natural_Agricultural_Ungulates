@@ -1,0 +1,57 @@
+SampleID	NumberOfInputReads	species	matrix	environment	collection_location	group	location_species	site_location	elevation	date_collected	number_animals
+REF1	31873493	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	North Lateral Moraine	2565	8-Sep-17	38
+REF2	20248471	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Fern Lake Trailhead	2485	8-Sep-17	20
+REF3	36659521	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Trail Ridge Road between Medicine Bow and Milner Pass	3401	8-Sep-17	22
+REF4	21972988	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Timber Lake	2787	8-Sep-17	10
+REF5	18452691	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	North of Milner Pass along Trail Ridge Road	3350	8-Sep-17	5
+REF6	33389145	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Adjacent to Beaver Meadow	2569	11-Sep-17	13
+REF7	16056820	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Moraine Park	2460	6-Oct-17	20
+REF8	13505238	Elk	Feces	natural	Rocky Mountain National Park	RMNP Elk feces	Elk; Rocky Mountain National Park	Moraine Park	2456	6-Oct-17	19
+RES1	11167417	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	North Lateral Moraine	2565	8-Sep-17	38
+RES2	12965422	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Fern Lake Trailhead	2485	8-Sep-17	20
+RES3	20629511	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Trail Ridge Road between Medicine Bow and Milner Pass	3401	8-Sep-17	22
+RES4	26575790	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Timber Lake	2787	8-Sep-17	10
+RES5	26736435	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	North of Milner Pass along Trail Ridge Road	3350	8-Sep-17	5
+RES6	19317551	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Adjacent to Beaver Meadow	2569	11-Sep-17	13
+RES7	38543983	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Moraine Park	2460	6-Oct-17	20
+RES8	46185429	Elk	Soil	natural	Rocky Mountain National Park	RMNP Elk soil	Elk; Rocky Mountain National Park	Moraine Park	2456	6-Oct-17	19
+YBF1	29707915	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Sulphur Caldron	2352	16-Sep-17	30
+YBF2	46805647	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Mud Volcano	2356	16-Sep-17	50
+YBF3	13590405	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Mud Volcano	2372	16-Sep-17	18
+YBF4	14902640	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Cottongrass Creek	2358	16-Sep-17	50
+YBF5	16689087	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Hayden Valley	2356	16-Sep-17	100
+YBF6	14351027	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Lamar Valley	1897	17-Sep-17	20
+YBF7	14284560	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Lamar Valley	1896	17-Sep-17	60
+YBF8	12163279	Bison	Feces	natural	Yellowstone National Park 	YNP Bison feces	Bison; Yellowstone National Park 	Lamar Valley	1978	17-Sep-17	50
+YBS1	19394014	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Sulphur Caldron	2352	16-Sep-17	30
+YBS2	6774301	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Mud Volcano	2356	16-Sep-17	50
+YBS3	29487403	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Mud Volcano	2372	16-Sep-17	18
+YBS4	11054790	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Cottongrass Creek	2358	16-Sep-17	50
+YBS5	7355810	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Hayden Valley	2356	16-Sep-17	100
+YBS6	15429208	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Lamar Valley	1897	17-Sep-17	20
+YBS7	11120965	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Lamar Valley	1896	17-Sep-17	60
+YBS8	9781568	Bison	Soil	natural	Yellowstone National Park 	YNP Bison soil	Bison; Yellowstone National Park 	Lamar Valley	1978	17-Sep-17	50
+YEF1	19383125	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	Bluff Point by West Thumb	2355	16-Sep-17	10
+YEF2	24002693	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	South of Canyon Junction	2416	16-Sep-17	20
+YEF3	36362634	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	"Southeast of Mammoth, by Lava Creek"	1825	16-Sep-17	6
+YEF4	37944767	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	USPS Lawn in Mammoth	1900	16-Sep-17	20
+YEF5	53442739	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	"Southeast of Mammoth, by Lava Creek"	1831	17-Sep-17	30
+YEF6	45282729	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	Elk Plaza area North of Mammoth	1737	17-Sep-17	10
+YEF7	19997100	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	45th parallel	1709	17-Sep-17	7
+YEF8	33323086	Elk	Feces	natural	Yellowstone National Park 	YNP Elk feces	Elk; Yellowstone National Park 	Madison River	2067	17-Sep-17	11
+YES1	16023081	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	Bluff Point by West Thumb	2355	16-Sep-17	10
+YES2	38390932	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	South of Canyon Junction	2416	16-Sep-17	20
+YES3	32188838	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	"Southeast of Mammoth, by Lava Creek"	1825	16-Sep-17	6
+YES4	31330427	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	USPS Lawn in Mammoth	1900	16-Sep-17	20
+YES5	15156342	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	"Southeast of Mammoth, by Lava Creek"	1831	17-Sep-17	30
+YES6	27257331	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	Elk Plaza area North of Mammoth	1737	17-Sep-17	10
+YES7	26546026	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	45th parallel	1709	17-Sep-17	7
+YES8	26131550	Elk	Soil	natural	Yellowstone National Park 	YNP Elk soil	Elk; Yellowstone National Park 	Madison River	2067	17-Sep-17	11
+BFe10	38295030	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe3	35184897	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe33	47180576	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe17	39857259	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe28	38524724	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe16	40171246	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe23	47752083	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
+BFe8	42835988	Cow	Feces	managed	Farm	Farm Cow feces	Cow; Farm				
